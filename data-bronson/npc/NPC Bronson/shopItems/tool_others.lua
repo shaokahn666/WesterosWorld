@@ -1,0 +1,16 @@
+return {
+	{ itemName= "backpack", clientId = 2854, buy = 20 },
+	{ itemName= "crowbar", clientId= 3304, buy= 150, sell= 50 },
+    { itemName= "fishing rod", clientId= 3483, buy= 120, sell= 40 },
+    { itemName= "hand axe", clientId= 3268, buy= 12, sell= 4 },
+    { itemName= "hatchet", clientId= 3276, buy= 75, sell= 25 },
+    { itemName= "light shovel", clientId= 5710, buy= 900, sell= 300 },
+    { itemName= "machete", clientId= 3308, buy= 18, sell= 6 },
+    { itemName= "pick", clientId= 3456, buy= 45, sell= 15 },
+    { itemName= "rope", clientId= 3003, buy= 45, sell= 15 },
+    { itemName= "scythe", clientId= 3453, buy= 30, sell= 10 },
+    { itemName= "shovel", clientId= 3457, buy= 24, sell= 8 },
+    { itemName= "sickle", clientId= 3293, buy= 9, sell= 3 },
+    { itemName= "small axe", clientId= 3462, buy= 15, sell= 5 },
+    { itemName= "watch", clientId= 2906, buy= 18, sell= 6 },
+}

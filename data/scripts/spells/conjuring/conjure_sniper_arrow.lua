@@ -1,0 +1,21 @@
+local spell = Spell("instant")
+
+function spell.onCastSpell(creature, variant)
+	return creature:conjureItem(0, 7364, 5, CONST_ME_MAGIC_BLUE)
+end
+
+spell:name("Conjure Sniper Arrow")
+spell:words("exevo con hur")
+spell:group("support")
+spell:vocation("paladin;true", "royal archer;true", "sharpshooter;true", "ethereal avanger;true")
+spell:id(108)
+spell:cooldown(2 * 1000)
+spell:groupCooldown(2 * 1000)
+spell:level(26)
+spell:mana(100)
+spell:soul(1)
+spell:isSelfTarget(true)
+spell:isAggressive(false)
+spell:isPremium(false)
+spell:needLearn(false)
+spell:register()

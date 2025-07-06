@@ -1,0 +1,16 @@
+return {
+	{ itemName = "glacier amulet", clientId = 815, sell = 2000 },
+    { itemName = "terra amulet", clientId = 814, sell = 2000 },
+    { itemName = "magma amulet", clientId = 817, sell = 2000 },
+    { itemName = "lightning pendant", clientId = 816, sell = 2000 },
+    { itemName= "platinum amulet", clientId= 3055, sell= 2500 },
+    { itemName= "mercurial wing", clientId= 39395, sell= 2500 },
+    { itemName = "ruby necklace", clientId = 3016, sell = 600 },
+    { itemName = "prismatic necklace", clientId = 16113, sell = 5000 },
+    { itemName = "sacred tree amulet", clientId = 9302, sell = 1000 },
+    { itemName = "shockwave amulet", clientId = 9304, sell = 1000 },
+    { itemName = "stone skin amulet", clientId = 3081, sell = 1000 },
+    { itemName = "collar of blue plasma", clientId = 23542, sell = 20000 },
+    { itemName = "collar of green plasma", clientId = 23543, sell = 20000 },
+    { itemName = "collar of red plasma", clientId = 23544, sell = 20000 },
+}

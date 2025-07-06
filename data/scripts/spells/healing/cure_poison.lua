@@ -1,0 +1,26 @@
+local combat = Combat()
+combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_MAGIC_BLUE)
+combat:setParameter(COMBAT_PARAM_DISPEL, CONDITION_POISON)
+combat:setParameter(COMBAT_PARAM_AGGRESSIVE, false)
+
+local spell = Spell("instant")
+
+function spell.onCastSpell(creature, variant)
+	return combat:execute(creature, variant)
+end
+
+spell:name("Cure Poison")
+spell:words("exana pox")
+spell:group("healing")
+spell:vocation("miner;true", "blacksmith;true", "weaponsmith;true", "artisan weaponsmith;true", "druid;true", "elder druid;true", "celtic druid;true", "spirit healer;true", "paladin;true", "royal archer;true", "sharpshooter;true", "ethereal avanger;true", "sorcerer;true", "master sorcerer;true", "archmage;true", "arcane wizard;true", "knight;true", "elite knight;true", "templar knight;true", "chaos knight;true", "barbarian;true", "barbarian ravager;true", "berserker;true", "barbarian warmonger;true")
+spell:castSound(SOUND_EFFECT_TYPE_SPELL_CURE_POISON)
+spell:id(29)
+spell:cooldown(6000)
+spell:groupCooldown(1000)
+spell:level(10)
+spell:mana(30)
+spell:isSelfTarget(true)
+spell:isAggressive(false)
+spell:isPremium(false)
+spell:needLearn(false)
+spell:register()
